@@ -53,19 +53,23 @@ const CheckInOutForm = () => {
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
-        <h2 className="text-2xl font-bold mb-6 text-center">Staff Check-In/Check-Out</h2>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAR_t8mZATSXcynVXzbIR9-oQJkrSH0GacjA&s" // Replace with the URL of your image
+          alt="Check-In/Check-Out"
+          className="mx-auto mb-6"
+        />
 
-        <div className="flex justify-between">
+        <div className="space-y-16">
           <button
             onClick={() => handleCheckInOut('Check-In')}
-            className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
+            className="w-full bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
           >
             Check-In
           </button>
 
           <button
             onClick={() => handleCheckInOut('Check-Out')}
-            className="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
+            className="w-full bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600"
           >
             Check-Out
           </button>

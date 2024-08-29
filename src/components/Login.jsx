@@ -9,16 +9,13 @@ const Login = () => {
   const navigate = useNavigate();
 
   const staffData = [
-    { staffId: "staff01", password: "password01" },
-    { staffId: "staff02", password: "password02" },
-    { staffId: "staff03", password: "password03" },
-    { staffId: "staff04", password: "password04" },
-    { staffId: "staff05", password: "password05" },
-    { staffId: "staff06", password: "password06" },
-    { staffId: "staff07", password: "password07" },
-    { staffId: "staff08", password: "password08" },
-    { staffId: "staff09", password: "password09" },
-    { staffId: "staff10", password: "password10" },
+    { staffId: "st1", password: "pw1" },
+    { staffId: "st2", password: "pw2" },
+    { staffId: "st3", password: "pw3" },
+    { staffId: "st4", password: "pw4" },
+    { staffId: "st5", password: "pw5" },
+    { staffId: "st6", password: "pw5" },
+     
   ];
 
   // Handle login logic
